@@ -10,6 +10,7 @@
         <module name="eureka" />
         <module name="eureka-feign-upload-client" />
         <module name="eureka-feign-upload-server" />
+        <module name="server" />
         <module name="service-feign" />
         <module name="service-lucy" />
         <module name="service-ribbon" />
