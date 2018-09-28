@@ -8,18 +8,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="eureka" />
-        <module name="server" />
+        <module name="eureka-feign-upload-client" />
+        <module name="eureka-feign-upload-server" />
         <module name="service-feign" />
+        <module name="service-lucy" />
         <module name="service-ribbon" />
+        <module name="service-turbine" />
         <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
       <module name="eureka" target="1.5" />
+      <module name="eureka-feign-upload-client" target="1.8" />
+      <module name="eureka-feign-upload-server" target="1.8" />
       <module name="server" target="1.8" />
       <module name="service-feign" target="1.8" />
+      <module name="service-lucy" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-turbine" target="1.8" />
       <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
